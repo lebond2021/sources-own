@@ -3324,7 +3324,7 @@
   "weight": 0
  },
  {
-  "bookSourceComment": "",
+  "bookSourceComment": "第240章实测 2145 字、主角名 10 次；目录走 JSON 接口，全 465 章",
   "bookSourceGroup": "🎉 精选,付费直读",
   "bookSourceName": "🎉 书海阁",
   "bookSourceType": 0,
@@ -3335,7 +3335,7 @@
   "enabledCookieJar": true,
   "enabledExplore": false,
   "exploreUrl": "",
-  "header": "",
+  "header": "@js: JSON.stringify({'X-Browser-Token': java.getCookie('https://book.washai.net', 'novel_browser_token'), 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'https://book.washai.net/'})",
   "lastUpdateTime": 1792591750054,
   "loginUrl": "",
   "respondTime": 180000,
@@ -3346,11 +3346,11 @@
    "kind": "@css:a#bookCatBadge@text",
    "lastChapter": "@css:a#lastIndexLink@text",
    "name": "@css:h1#bookName@text",
-   "tocUrl": "@css:a#allIndexLink@href",
+   "tocUrl": "@js: (function(){var m=String(result||'').match(/id=\"bookId\"[^>]*value=\"(\\d+)\"/);var b=m?m[1]:'';if(!b){var n=String(baseUrl||'').match(/book\\/(\\d+)/);b=n?n[1]:'';}return 'https://book.washai.net/book/queryIndexList?bookId='+b + '&curr=1&limit=100&orderBy=asc';})()",
    "wordCount": "@css:em#bookWordCount@text"
   },
   "ruleContent": {
-   "content": "@css:#mainContent@html",
+   "content": "@css:#showReading .readChapterAppendBody@html",
    "nextContentUrl": "",
    "sourceRegex": "",
    "webJs": ""
@@ -3368,15 +3368,16 @@
    "wordCount": "@css:p.classBookMeta@text##^[^·]*·\\s*([0-9.]+万字).*##$1###"
   },
   "ruleToc": {
-   "chapterList": "@css:li a",
-   "chapterName": "text",
-   "chapterUrl": "href",
+   "chapterList": "$.data.list[*]",
+   "chapterName": "$.indexName",
+   "chapterUrl": "https://book.washai.net/book/{{$.bookId}}/{{$.id}}.html",
    "isVip": "",
-   "nextTocUrl": "//*[@id=\"indexPager\"]//a[contains(text(),\"下一页\")]/@href",
+   "nextTocUrl": "@js: (function(){var d=JSON.parse(result);var p=d.data.pageNum,s=d.data.pageSize,t=d.data.total,b=(d.data.list[0]||{}).bookId;var out=[];for(var i=p+1;i<=Math.ceil(t/s);i++){out.push('https://book.washai.net/book/queryIndexList?bookId='+b+'&curr='+i+'&limit='+s+'&orderBy=asc');}return out.join('\\n');})()",
    "updateTime": ""
   },
   "searchUrl": "/book/bookclass.html?k={{key}}&page={{page}}",
-  "weight": 0
+  "weight": 0,
+  "id": "washai-1"
  },
  {
   "bookSourceComment": "                    \"error:Connection reset\n                                        \"error:Connection reset\n                    error:Connection reset\n\"\"",
