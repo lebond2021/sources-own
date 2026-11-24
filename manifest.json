@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-24T08:58:38+08:00",
+ "updated": "2026-11-24T09:59:35+08:00",
  "repo": "https://github.com/lebond2021/sources-own",
  "raw": "https://raw.githubusercontent.com/lebond2021/sources-own/main/",
  "files": [
   {
    "file": "normal.json",
-   "count": 529
+   "count": 509
   },
   {
    "file": "adult.json",
-   "count": 78
+   "count": 74
   },
   {
    "file": "others.json",
@@ -17,7 +17,7 @@
   },
   {
    "file": "premium.json",
-   "count": 537
+   "count": 514
   }
  ]
 }
