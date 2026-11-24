@@ -3376,8 +3376,7 @@
    "updateTime": ""
   },
   "searchUrl": "/book/bookclass.html?k={{key}}&page={{page}}",
-  "weight": 0,
-  "id": "washai-1"
+  "weight": 0
  },
  {
   "bookSourceComment": "                    \"error:Connection reset\n                                        \"error:Connection reset\n                    error:Connection reset\n\"\"",
