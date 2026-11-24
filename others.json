@@ -377,5 +377,179 @@
   "bookUrlPattern": "",
   "header": "",
   "loginUrl": ""
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "漫画 🎨",
+  "bookSourceName": "🎨漫画吧网",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://www.manhuaba.com",
+  "customButton": false,
+  "customOrder": 1368,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "[{\"title\":\"地区\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"国产漫画\",\"url\":\"https://www.manhuaba.com/category/list/1/order/addtime/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"日本漫画\",\"url\":\"https://www.manhuaba.com/category/list/2/order/addtime/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"韩国漫画\",\"url\":\"https://www.manhuaba.com/category/list/3/order/addtime/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"欧美漫画\",\"url\":\"https://www.manhuaba.com/category/list/4/order/addtime/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"冒险\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/541/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"西幻\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/540/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"青春\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/539/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"宅向\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/538/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"宅斗\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/536/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"歌舞\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/534/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"偶像\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/533/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"异型\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/532/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"原创\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/531/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"咚漫\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/529/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"恋爱\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/542/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/543/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/544/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"战斗\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/545/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"灵异\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/547/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/548/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"纯爱\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/549/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"现代\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/550/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"总裁\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/551/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"推理\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/552/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"职场\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/553/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"剧情\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/554/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"校园\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/555/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"穿越\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/556/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"逆袭\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/557/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"古风\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/558/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"玄幻\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/559/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"热血\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/560/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"权谋\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/561/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"正能量\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/562/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"复仇\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/563/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/564/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"奇幻\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/565/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"搞笑\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/566/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"日常\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/567/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"大女主\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/568/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"亲情\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/569/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"战争\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/570/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"脑洞\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/571/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"社会\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/572/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"重生\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/573/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"怪物\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/574/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女神\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/575/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"多世界\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/576/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"异能\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/577/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"治愈\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/578/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"浪漫\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/579/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"魔幻\",\"url\":\"https://www.manhuaba.com/category/order/addtime/tags/580/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+  "header": "@js:\n(() => {\nvar headers = {\n\"User-Agent\": java.getWebViewUA(),\n\"Referer\": baseUrl,\n\"X-Requested-With\": \"\"\n};\nreturn JSON.stringify(headers);\n})();",
+  "lastUpdateTime": 1776744498265,
+  "respondTime": 12091,
+  "ruleBookInfo": {
+   "author": "class.module-info-item-content.0@text",
+   "intro": "class.module-info-introduction-content@text",
+   "kind": "class.module-info-item.2@class.module-info-item-content@a@text&&class.module-info-item.3@class.module-info-item-content@text"
+  },
+  "ruleContent": {
+   "content": "@css:body div.homepage div.main div.content@html"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "bookList": "@css:li.swiper-slide",
+   "bookUrl": "@css:a@href",
+   "checkKeyWord": "我！天命",
+   "coverUrl": "class.module-item-pic@img@data-original",
+   "lastChapter": "class.module-item-note@text",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:div.module-items a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "https://www.manhuaba.com/search?key={{key}}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "loginUrl": ""
+ },
+ {
+  "bookSourceComment": "2025/4/15\nby 天天的鸟蛋蛋 webView方法 \nby世界  by另一个书友圈  解密\nwebView方法：\n<js>\nresult=java.webView(src,\"http://www.zhuigeng.cc\",\"\")\n</js>\n.more-box@html",
+  "bookSourceGroup": "漫画",
+  "bookSourceName": "追更漫画_zhuigeng.cc",
+  "bookSourceType": 2,
+  "bookSourceUrl": "http://www.zhuigeng.cc",
+  "customButton": false,
+  "customOrder": 747,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": false,
+  "eventListener": false,
+  "lastUpdateTime": 1745158538784,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+   "author": ".mb-0.1@text",
+   "intro": "<js>\nnovelIntro=({title,author,genre,score,desc})=>['','✧*̥₊˚‧☆･ﾟ'.repeat(3),`📖书名：《${title}》`,`👤作者：${author}`,`🏷️类型：${genre}`,'✦ ─────────────── ✦',`${desc}`,'❈'.padEnd(20,'～*')].join('\\n').replace(/^/gm,'　　');\n\nintro=`{{@@.mb-0.-1@textNodes##(^|[。！？]+[”」）】]?)##$1<br>}}`\nnovelIntro({\n    \"title\": book.name,\n    \"author\": book.author,\n    \"genre\": book.kind,\n    \"desc\": intro\n})\n</js>",
+   "kind": ".mb-0!0@a@text&&.mb-0.-2@text##.*：",
+   "lastChapter": ".text-theme@text",
+   "name": ".detail-info-title@text"
+  },
+  "ruleContent": {
+   "content": "@css:body div.site-main.spimes-container div.container main.site-main@html"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "bookList": "@css:li.menu-item",
+   "bookUrl": "@css:a@href",
+   "coverUrl": ".video-img@data-original",
+   "intro": ".video-actor@text",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:article.post-list a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/search?key={{key}}",
+  "bookUrlPattern": "",
+  "weight": 0,
+  "header": "",
+  "loginUrl": "",
+  "exploreUrl": ""
+ },
+ {
+  "bookSourceComment": "By小新\n首发论坛:https://srcbbs.com/\n请不要修改注释",
+  "bookSourceGroup": "漫画书源 🎨,特殊书源 🔞",
+  "bookSourceName": "🎨🔞污漫天堂",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://wumtt.com/",
+  "customButton": false,
+  "customOrder": 506,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "[\n\n\n{\"title\":\"按时间排序\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/mangacata/all/ob/time/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"韩漫\",\"url\":\"/mangacata/韩漫/ob/time/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日漫\",\"url\":\"/mangacata/日漫/ob/time/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"3D漫画\",\"url\":\"/mangacata/3D漫画/ob/time/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"真人漫画\",\"url\":\"/mangacata/真人漫画/ob/time/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"短篇\",\"url\":\"/mangacata/短篇/ob/time/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n\n{\"title\":\"按热度排序\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全部\",\"url\":\"/mangacata/all/ob/hits/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"韩漫\",\"url\":\"/mangacata/韩漫/ob/hits/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日漫\",\"url\":\"/mangacata/日漫/ob/hits/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"3D漫画\",\"url\":\"/mangacata/3D漫画/ob/hits/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"真人漫画\",\"url\":\"/mangacata/真人漫画/ob/hits/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"短篇\",\"url\":\"/mangacata/短篇/ob/hits/st/all/page/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n\n\n{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"周榜\",\"url\":\"/mangarank/weekly\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"日榜\",\"url\":\"/mangarank/daily\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"月榜\",\"url\":\"/mangarank/monthly\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"总榜\",\"url\":\"/mangarank/all\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}\n\n]",
+  "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; U; Android 13; zh-Hans-CN; PFJM10 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.4896.58 Quark/6.13.6.581 Mobile Safari/537.36\",\"Accept-Language\":\"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+  "lastUpdateTime": 1747810739018,
+  "respondTime": 50526,
+  "ruleBookInfo": {
+   "intro": "&nbsp;\n📖 书名：{{@@module-info-heading@h1.0@text}}\n👤 作者：{{@@[class=\"module-info-item\"].0@a.0@text}}\n🔖 标签：{{@@[class=\"module-info-tag\"]@text&&[class=\"module-info-item\"].1@div.1@text}}\n🏷 简介：{{@@[class=\"module-info-item module-info-introduction\"]@text}}"
+  },
+  "ruleContent": {
+   "content": "[class=\"content\"]@html"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "bookList": "@css:div",
+   "bookUrl": "@css:a@href",
+   "coverUrl": "img@data-original||img@src",
+   "kind": ".module-item-note@text",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:div.module-items a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/cata.php?key={{key}}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "loginUrl": ""
+ },
+ {
+  "bookSourceComment": "//2025.2.4 By Buding\n需要魔法",
+  "bookSourceGroup": "漫画 书源",
+  "bookSourceName": "滴答漫画（优++）",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://ddmanhua.com",
+  "customButton": false,
+  "customOrder": 258,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "[\n  {\n    \"title\": \"国产漫画\",\n    \"url\": \"/category/list/page/{{page}}\"\n  },\n  {\n    \"title\": \"日本漫画\",\n    \"url\": \"/category/list/2/page/{{page}}\"\n  },\n  {\n    \"title\": \"韩国漫画\",\n    \"url\": \"/category/list/3/page/{{page}}\"\n  },\n  {\n    \"title\": \"欧美漫画\",\n    \"url\": \"/category/list/4/page{{page}}\"\n  }\n]",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0.0; MI 5s Plus Build/OPR1.170623.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.0.0 Mobile Safari/537.36\"\n}",
+  "lastUpdateTime": 1787324728459,
+  "respondTime": 182226,
+  "ruleBookInfo": {
+   "author": ".product-excerpt.0@span@text",
+   "coverUrl": "img.1@src",
+   "intro": ".product-excerpt.4@span@text",
+   "kind": "{{@@.product-excerpt.1@span@text}},{{@@.product-excerpt.2@span@text}},{{@@h1@span.1@text}}分,{{@@.product-excerpt.3@span@text##\\s.*}}",
+   "name": "h1@ownText",
+   "tocUrl": "text.目录@href"
+  },
+  "ruleContent": {
+   "content": "@css:div.container@html"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "bookList": "@css:li",
+   "bookUrl": "@css:a@href",
+   "checkKeyWord": "辣妹与我的",
+   "coverUrl": "a@data-original",
+   "kind": "{{@@.countrie@span.1@text}},{{@@.rate@text}}分",
+   "lastChapter": ".note@text",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:li a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "https://ddmanhua.com//search/{k}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "loginUrl": ""
  }
 ]
