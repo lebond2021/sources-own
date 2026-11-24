@@ -1,0 +1,381 @@
+[
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "镜像",
+  "bookSourceName": "🎧 静听网·镜像",
+  "bookSourceType": 1,
+  "bookSourceUrl": "https://audio699.cc",
+  "customOrder": 10363,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "exploreUrl": "灵异推理::/list/1_{{page}}.html\n科幻玄幻::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n穿越历史::/list/4_{{page}}.html\n其他类型::/list/5_{{page}}.html",
+  "lastUpdateTime": 0,
+  "respondTime": 2042,
+  "ruleBookInfo": {
+   "author": "class.binfo@tag.p.1@text&&class.binfo@tag.p.2@text##作者.",
+   "coverUrl": "class.bimg@tag.img@src",
+   "intro": "[name=\"description\"]@content",
+   "kind": "class.binfo@tag.p.0@text&&class.binfo@tag.p.4@text&&class.binfo@tag.p.5@text##类别.|状态.|时间.|\\s.*",
+   "lastChapter": "class.plist@tag.a.-1@text",
+   "name": "class.binfo@tag.h1@text##有声小说"
+  },
+  "ruleContent": {
+   "content": "@css:.content@html",
+   "nextContentUrl": "id.next@tag.a@href",
+   "sourceRegex": ""
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "tag.p.0@text||tag.p.1@text##作者.",
+   "bookList": "@css:h4.bookname",
+   "bookUrl": "@css:a@href",
+   "coverUrl": "tag.img@src",
+   "kind": "tag.p.2@text##状态.",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:dd a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/search?keyword={{key}}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "header": "",
+  "loginUrl": ""
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "有声",
+  "bookSourceName": "静听网(无发现)",
+  "bookSourceType": 1,
+  "bookSourceUrl": "http://www.audio699.com",
+  "customOrder": 19985,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "lastUpdateTime": 0,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+   "intro": "tag.p.6@text"
+  },
+  "ruleContent": {
+   "content": "@css:.content@html",
+   "imageStyle": "0",
+   "nextContentUrl": "text.下一页@href"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "tag.p.1@text",
+   "bookList": "@css:h4.bookname",
+   "bookUrl": "@css:a@href",
+   "coverUrl": "tag.a.0@tag.img@src",
+   "kind": "tag.p.0@text||tag.p.2@text",
+   "lastChapter": "tag.p.3@text",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:dd a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "http://www.audio699.com/search?keyword={{key}}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "header": "",
+  "loginUrl": "",
+  "exploreUrl": ""
+ },
+ {
+  "bookSourceComment": "// Error: 下载链接为空",
+  "bookSourceGroup": "动漫,镜像",
+  "bookSourceName": "🎨 韩漫吧·镜像",
+  "bookSourceType": 3,
+  "bookSourceUrl": "https://hmba.vip",
+  "customOrder": 342,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "exploreUrl": "[{\"title\":\"在线\",\"url\":\"/onlinemhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/dushimhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"/gmmhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"腐漫\",\"url\":\"/blmhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日本\",\"url\":\"ribenmhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"韩国\",\"url\":\"/hanguomhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"免费\",\"url\":\"/mfmhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+  "lastUpdateTime": 0,
+  "loginUrl": "",
+  "respondTime": 180402,
+  "ruleBookInfo": {
+   "author": "class.pt-info.1@text##作者.",
+   "coverUrl": ".baseinfo img@src",
+   "init": "",
+   "intro": ".intro@html##简介.",
+   "kind": "class.pt-info.0:2:3@text##.*：|\\s.*",
+   "lastChapter": "#newchaperlist a.0@text",
+   "name": "class.pt-name.0@text"
+  },
+  "ruleContent": {
+   "content": "@css:#article@html",
+   "imageStyle": "FULL",
+   "sourceRegex": ""
+  },
+  "ruleExplore": {
+   "author": ".s712@text",
+   "bookList": ".pt-card-7 li",
+   "bookUrl": "a.1@href",
+   "coverUrl": "img@data-original",
+   "intro": ".pt-desc@text##简介.",
+   "kind": ".s713@text",
+   "lastChapter": "",
+   "name": ".pt-name@text"
+  },
+  "ruleSearch": {
+   "bookList": "@css:div.img_span",
+   "bookUrl": "@css:a@href",
+   "coverUrl": "img@data-original",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:.chapter_list a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/home/search?action=search&q={{key}}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "header": ""
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "",
+  "bookSourceName": "🎧 静听网",
+  "bookSourceType": 1,
+  "bookSourceUrl": "http://m.audio699.com",
+  "customOrder": 10363,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "exploreUrl": "灵异推理::/list/1_{{page}}.html\n科幻玄幻::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n穿越历史::/list/4_{{page}}.html\n其他类型::/list/5_{{page}}.html",
+  "lastUpdateTime": 1615559959798,
+  "respondTime": 2042,
+  "ruleBookInfo": {
+   "author": "class.binfo@tag.p.1@text&&class.binfo@tag.p.2@text##作者.",
+   "coverUrl": "class.bimg@tag.img@src",
+   "intro": "[name=\"description\"]@content",
+   "kind": "class.binfo@tag.p.0@text&&class.binfo@tag.p.4@text&&class.binfo@tag.p.5@text##类别.|状态.|时间.|\\s.*",
+   "lastChapter": "class.plist@tag.a.-1@text",
+   "name": "class.binfo@tag.h1@text##有声小说"
+  },
+  "ruleContent": {
+   "content": "@css:.content@html",
+   "nextContentUrl": "id.next@tag.a@href",
+   "sourceRegex": ""
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "tag.p.0@text||tag.p.1@text##作者.",
+   "bookList": "@css:h4.bookname",
+   "bookUrl": "@css:a@href",
+   "coverUrl": "tag.img@src",
+   "kind": "tag.p.2@text##状态.",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:dd a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/search?keyword={{key}}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "header": "",
+  "loginUrl": ""
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "AAAAA新",
+  "bookSourceName": "📖百合会（漫画）",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://www.yamibo.com",
+  "bookUrlPattern": "",
+  "customOrder": 77,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "exploreUrl": "翻页漫画::https://www.yamibo.com/search/type?type=3&tag=%E7%BF%BB%E9%A1%B5%E6%BC%AB%E7%94%BB&page={{page}}\n条漫::https://www.yamibo.com/search/type?type=3&tag=%E6%9D%A1%E6%BC%AB&page={{page}}\n四格::https://www.yamibo.com/search/type?type=3&tag=%E5%9B%9B%E6%A0%BC&page={{page}}\n绘本::https://www.yamibo.com/search/type?type=3&tag=%E7%BB%98%E6%9C%AC&page={{page}}\n杂志::https://www.yamibo.com/search/type?type=3&tag=%E6%9D%82%E5%BF%97&page={{page}}\n合志::https://www.yamibo.com/search/type?type=3&tag=%E5%90%88%E5%BF%97&page={{page}}\n全部作品::https://www.yamibo.com/manga/list?page={{page}}\n原创::https://www.yamibo.com/manga/list?q=4&page={{page}}\n同人::https://www.yamibo.com/manga/list?q=6&page={{page}}",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.2357.134 Safari/537.36\"\n}",
+  "lastUpdateTime": 1713097790668,
+  "loginUrl": "",
+  "respondTime": 180949,
+  "ruleBookInfo": {
+   "coverUrl": "class.img-responsive.0@src",
+   "init": "",
+   "intro": "id.w0-collapse1@text"
+  },
+  "ruleContent": {
+   "content": "@css:#txt@html",
+   "imageStyle": "FULL",
+   "nextContentUrl": "##>(\\d+)</a></li>\\s*<li class=\"next\">##$1###\n<js>\npage=result;\nlist=[];\nfor(i=2;i<page;i++){\n\tlist.push(baseUrl+\"&page=\"+i)\n\t}\nlist\n</js>",
+   "replaceRegex": ""
+  },
+  "ruleExplore": {
+   "bookList": ""
+  },
+  "ruleSearch": {
+   "author": "tag.td.2@text",
+   "bookList": "@css:li",
+   "bookUrl": "@css:a@href",
+   "kind": "tag.td.3@text&&tag.td.4@text##\\[|\\]",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:td a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "https://www.yamibo.com/search/manga?SearchForm%5Bkeyword%5D={{key}}",
+  "weight": 0
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "镜像",
+  "bookSourceName": "🎧 静听网·镜像",
+  "bookSourceType": 1,
+  "bookSourceUrl": "https://audio699.vip",
+  "customOrder": 10363,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "exploreUrl": "灵异推理::/list/1_{{page}}.html\n科幻玄幻::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n穿越历史::/list/4_{{page}}.html\n其他类型::/list/5_{{page}}.html",
+  "lastUpdateTime": 0,
+  "respondTime": 2042,
+  "ruleBookInfo": {
+   "author": "class.binfo@tag.p.1@text&&class.binfo@tag.p.2@text##作者.",
+   "coverUrl": "class.bimg@tag.img@src",
+   "intro": "[name=\"description\"]@content",
+   "kind": "class.binfo@tag.p.0@text&&class.binfo@tag.p.4@text&&class.binfo@tag.p.5@text##类别.|状态.|时间.|\\s.*",
+   "lastChapter": "class.plist@tag.a.-1@text",
+   "name": "class.binfo@tag.h1@text##有声小说"
+  },
+  "ruleContent": {
+   "content": "@css:.content@html",
+   "nextContentUrl": "id.next@tag.a@href",
+   "sourceRegex": ""
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "tag.p.0@text||tag.p.1@text##作者.",
+   "bookList": "@css:h4.bookname",
+   "bookUrl": "@css:a@href",
+   "coverUrl": "tag.img@src",
+   "kind": "tag.p.2@text##状态.",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:dd a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/search?keyword={{key}}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "header": "",
+  "loginUrl": ""
+ },
+ {
+  "bookSourceComment": "// Error: 下载链接为空",
+  "bookSourceGroup": "动漫",
+  "bookSourceName": "🎨 韩漫吧",
+  "bookSourceType": 3,
+  "bookSourceUrl": "https://m.hmba.vip",
+  "customOrder": 342,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "exploreUrl": "[{\"title\":\"在线\",\"url\":\"/onlinemhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/dushimhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"/gmmhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"腐漫\",\"url\":\"/blmhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日本\",\"url\":\"ribenmhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"韩国\",\"url\":\"/hanguomhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"免费\",\"url\":\"/mfmhpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+  "lastUpdateTime": 1646918497508,
+  "loginUrl": "",
+  "respondTime": 180402,
+  "ruleBookInfo": {
+   "author": "class.pt-info.1@text##作者.",
+   "coverUrl": ".baseinfo img@src",
+   "init": "",
+   "intro": ".intro@html##简介.",
+   "kind": "class.pt-info.0:2:3@text##.*：|\\s.*",
+   "lastChapter": "#newchaperlist a.0@text",
+   "name": "class.pt-name.0@text"
+  },
+  "ruleContent": {
+   "content": "@css:#article@html",
+   "imageStyle": "FULL",
+   "sourceRegex": ""
+  },
+  "ruleExplore": {
+   "author": ".s712@text",
+   "bookList": ".pt-card-7 li",
+   "bookUrl": "a.1@href",
+   "coverUrl": "img@data-original",
+   "intro": ".pt-desc@text##简介.",
+   "kind": ".s713@text",
+   "lastChapter": "",
+   "name": ".pt-name@text"
+  },
+  "ruleSearch": {
+   "bookList": "@css:div.img_span",
+   "bookUrl": "@css:a@href",
+   "coverUrl": "img@data-original",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:.chapter_list a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/home/search?action=search&q={{key}}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "header": ""
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "镜像,镜像",
+  "bookSourceName": "🎧 静听网·镜像·镜像",
+  "bookSourceType": 1,
+  "bookSourceUrl": "https://m.audio699.vip",
+  "customOrder": 10363,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "exploreUrl": "灵异推理::/list/1_{{page}}.html\n科幻玄幻::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n穿越历史::/list/4_{{page}}.html\n其他类型::/list/5_{{page}}.html",
+  "lastUpdateTime": 0,
+  "respondTime": 2042,
+  "ruleBookInfo": {
+   "author": "class.binfo@tag.p.1@text&&class.binfo@tag.p.2@text##作者.",
+   "coverUrl": "class.bimg@tag.img@src",
+   "intro": "[name=\"description\"]@content",
+   "kind": "class.binfo@tag.p.0@text&&class.binfo@tag.p.4@text&&class.binfo@tag.p.5@text##类别.|状态.|时间.|\\s.*",
+   "lastChapter": "class.plist@tag.a.-1@text",
+   "name": "class.binfo@tag.h1@text##有声小说"
+  },
+  "ruleContent": {
+   "content": "@css:.content@html",
+   "nextContentUrl": "id.next@tag.a@href",
+   "sourceRegex": ""
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "tag.p.0@text||tag.p.1@text##作者.",
+   "bookList": "@css:h4.bookname",
+   "bookUrl": "@css:a@href",
+   "coverUrl": "tag.img@src",
+   "kind": "tag.p.2@text##状态.",
+   "name": "@css:a@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:dd a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/search?keyword={{key}}",
+  "weight": 0,
+  "bookUrlPattern": "",
+  "header": "",
+  "loginUrl": ""
+ }
+]

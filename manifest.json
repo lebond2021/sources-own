@@ -1,0 +1,23 @@
+{
+ "updated": "2026-11-24T08:57:58+08:00",
+ "repo": "https://github.com/lebond2021/sources-own",
+ "raw": "https://raw.githubusercontent.com/lebond2021/sources-own/main/",
+ "files": [
+  {
+   "file": "normal.json",
+   "count": 529
+  },
+  {
+   "file": "adult.json",
+   "count": 78
+  },
+  {
+   "file": "others.json",
+   "count": 8
+  },
+  {
+   "file": "premium.json",
+   "count": 537
+  }
+ ]
+}
